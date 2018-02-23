@@ -2,7 +2,7 @@
   "name": "type-plate",
   "description": "A type-safe html template tool for typescript. ",
   "version": "1.0.1",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Max White",
   "license": "MIT",
