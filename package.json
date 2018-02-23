@@ -1,0 +1,29 @@
+{
+  "name": "type-plate",
+  "description": "A type-safe html template tool for typescript. ",
+  "version": "1.0.0",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "author": "Max White",
+  "license": "MIT",
+  "url": "https://github.com/mushishi78/type-plate/issues",
+  "email" : "mushishi78@gmail.com",
+  "repository": "github:mushishi78/type-plate",
+  "dependencies": {
+    "sanitize-html": "^1.17.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "@types/sanitize-html": "^1.14.0",
+    "html5-validator": "^1.0.7",
+    "prettier": "^1.10.2",
+    "tap": "^11.1.0",
+    "tsc": "^1.20150623.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node src/index.test.ts",
+    "prettier": "prettier $(find . ! -path '*node_modules*'  -iname '*.ts') --write"
+  }
+}
