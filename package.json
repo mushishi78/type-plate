@@ -10,16 +10,16 @@
   "email" : "mushishi78@gmail.com",
   "repository": "github:mushishi78/type-plate",
   "dependencies": {
-    "sanitize-html": "^1.17.0",
-    "ts-node": "^4.1.0",
-    "typescript": "^2.7.2"
+    "sanitize-html": "^1.17.0"
   },
   "devDependencies": {
     "@types/sanitize-html": "^1.14.0",
     "html5-validator": "^1.0.7",
     "prettier": "^1.10.2",
     "tap": "^11.1.0",
-    "tsc": "^1.20150623.0"
+    "tsc": "^1.20150623.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.7.2"
   },
   "scripts": {
     "build": "tsc",
